@@ -15,7 +15,7 @@ const connection = mysql.createConnection({
 //TABLES DEFINITIONS
 
 const createClientsTable = `
-  CREATE TABLE clients (
+  CREATE TABLE Client (
     id_client INT AUTO_INCREMENT,
     nom VARCHAR(255),
     prenom VARCHAR(255),
